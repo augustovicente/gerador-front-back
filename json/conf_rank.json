@@ -1,0 +1,23 @@
+{
+    "table": "conf_rankings",
+    "tp_menu": "conf",
+    "icone": "fa fa-user",
+    "rota": "conf-rank",
+    "model": "ConfRank",
+    "has_status": true,
+    "fields": [
+        "rank_label",
+        "rank_nome_banco",
+        "rank_peso"
+    ],
+    "fields_display": [
+        "rank_label",
+        "rank_nome_banco"
+    ],
+    "fields_filter": [
+        "rank_label",
+        "rank_nome_banco",
+        "rank_peso"
+    ],
+    "abreviacao":"conf"
+}

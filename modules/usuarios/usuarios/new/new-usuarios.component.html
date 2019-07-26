@@ -1,0 +1,25 @@
+<div class="row">
+                    <div class="col-12">
+                        <form #newGruposForm="ngForm" class="row" (ngSubmit)="salva()">
+                             <div class="col-md-6 col-xs-12 p-3">
+                        <label for="nome">Nome</label>
+                        <input id="nome" type="text" [(ngModel)]="nome" class="form-control" name="nome" required>
+                    </div>
+ <div class="col-md-6 col-xs-12 p-3">
+                        <label for="email">Email</label>
+                        <input id="email" type="text" [(ngModel)]="email" class="form-control" name="email" required>
+                    </div>
+ <div class="col-md-6 col-xs-12 p-3">
+                        <label for="cpf">Cpf</label>
+                        <input id="cpf" type="text" [(ngModel)]="cpf" class="form-control" name="cpf" required>
+                    </div>
+
+                            <div class="col-12 p-2">
+                                <button type="submit" class="btn btn-success float-right">
+                                    <i class="fa fa-check"></i>
+                                    Salvar
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>

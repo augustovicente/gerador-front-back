@@ -1,0 +1,5 @@
+
+            {
+                path: 'usuarios',
+                loadChildren: './usuarios/usuarios.module#UsuarioModule'
+            }
